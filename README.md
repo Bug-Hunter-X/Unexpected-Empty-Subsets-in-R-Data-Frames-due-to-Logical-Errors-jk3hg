@@ -1,0 +1,3 @@
+# Unexpected Empty Subsets in R Data Frames
+
+This repository demonstrates a common, yet subtle, error in R programming: obtaining an empty data frame subset due to incorrect logical conditions.  The error is often difficult to track down, especially in larger datasets or complex conditions.  The code includes examples highlighting scenarios where seemingly correct logical conditions result in an empty or unexpected subset.  The solution demonstrates how to handle such errors using more robust logical expressions and careful handling of `NA` values.
